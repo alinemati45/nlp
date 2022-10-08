@@ -1,0 +1,95 @@
+---
+title: "Natural Language Processing with Transformers 2022"
+author: "Ali Nemati"
+date: "Last compiled on `r format(Sys.time(), '%d %B, %Y , %H:%M:%S')`"
+fontsize: 12pt
+output:
+  html_document:
+  includes: null
+  toc: yes
+  toc_depth: '4'
+word_document:
+  toc: yes
+  toc_depth: '4'
+pdf_document:
+  includes: null
+  toc: yes
+  toc_depth: 4
+latex_engine: xelatex
+urlcolor: blue
+linkcolor: red
+# header-includes:
+header-includes:
+- \usepackage{hyperref}
+- \usepackage{xcolor}
+- \hypersetup{frenchlinks=true, colorlinks = TRUE,  urlcolor = blue, pdfborder={0 0 1}} 
+link-citations: yes
+ident: True
+# header-includes:
+# link-citations: yes
+# ident: True
+editor_options: 
+  markdown: 
+  wrap: 72
+---
+
++ Github Adderss:
+
+https://github.com/nlp-with-transformers/notebooks
+
+* [Chapter 1 : Hello Transformers](https://github.com/alinemati45/book_summary/blob/47849d3ecd6b7bdef6da51a7fcc51b555fc08054/Natural%20Language%20Processing%20with%20Transformers%202022/01_introduction.ipynb)
+
+* 1.  Hello Transformers
+* 1.1.  The Encoder-Decoder Framework
+* 1.2.  Attention Mechanisms
+* 1.3.  Transfer Learning in NLP
+* 1.3.1  Pretraining
+* 1.3.2  Domain adaptation
+* 1.3.3  Fine-tuning
+* 1.3.4  GPT
+* 1.3.5  BERT
+* 1.4.  Hugging Face Transformers: Bridging the Gap
+* 1.5.  A Tour of Transformer Applications
+* 1.5.1  Text Classification
+* 1.5.2  Named Entity Recognition
+* 1.5.3  Question Answering
+* 1.5.4  Summarization    
+* 1.5.5  Translation
+* 1.5.6  Text Generation
+* 1.6  The Hugging Face Ecosystem
+* 1.6.1  The Hugging Face Hub
+* 1.6.2  Hugging Face Tokenizers
+* 1.6.3  Hugging Face Datasets
+      
+* [Chapter 2: Text Classification]()
+* 1  Text Classification
+* 1.1  The Dataset
+* 1.1.1  A First Look at Hugging Face Datasets
+* 1.1.2  Sidebar: What If My Dataset Is Not on the Hub?
+* 1.1.3  End sidebar
+* 1.1.4  From Datasets to DataFrames
+* 1.1.5  Looking at the Class Distribution
+* 1.1.6  How Long Are Our Tweets?
+* 1.2  From Text to Tokens
+* 1.2.1  Character Tokenization
+* 1.2.2  Word Tokenization
+* 1.2.3  Subword Tokenization
+* 1.2.4  Tokenizing the Whole Dataset
+* 1.3  Training a Text Classifier
+* 1.3.1  Transformers as Feature Extractors
+* 1.3.1.1  Using pretrained models
+* 1.3.2  Sidebar: Interoperability Between Frameworks
+* 1.3.3  End sidebar
+* 1.3.3.1  Extracting the last hidden states
+* 1.3.3.2  Creating a feature matrix
+* 1.3.3.3  Visualizing the training set
+* 1.3.3.4  Training a simple classifier
+* 1.3.4  Fine-Tuning Transformers
+* 1.3.4.1  Loading a pretrained model
+* 1.3.4.2  Defining the performance metrics
+* 1.3.4.3  Training the model
+1.3.5  Sidebar: Fine-Tuning with Keras
+* 1.3.6  End sidebar
+* 1.3.6.1  Error analysis
+* 1.3.6.2  Saving and sharing the model
+* 1.4  Conclusion

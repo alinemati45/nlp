@@ -1,0 +1,11 @@
+name: Publish Document
+title:
+username:
+account: rpubs
+server: rpubs.com
+hostUrl: rpubs.com
+appId: https://api.rpubs.com/api/v1/document/945294/210758049c5f4aea936f6822ccbdd09f
+bundleId: https://api.rpubs.com/api/v1/document/945294/210758049c5f4aea936f6822ccbdd09f
+url: http://rpubs.com/alinemati/945294
+when: 1663726406.62672
+lastSyncTime: 1663726406.62673
